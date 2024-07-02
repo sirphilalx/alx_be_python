@@ -2,7 +2,7 @@
 def perform_operation(num1, num2, operation):
     """a function that performs basic arithmetic operations"""
     if operation == 'divide':
-        if (num1 == 0 or num2 == 0):
+        if num2 == 0:
             return 'division by zero is not supported'
         else:
             return num1 / num2
