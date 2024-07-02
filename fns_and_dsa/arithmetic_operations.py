@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def perform_operation(num1:float, num2:float, operation:str):
+def perform_operation(num1, num2, operation):
     """a function that performs basic arithmetic operations"""
     if operation == 'divide':
         if (num1 == 0 or num2 == 0):
