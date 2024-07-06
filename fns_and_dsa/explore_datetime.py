@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import datetime
+from datetime import datetime
 
 def display_current_datetime():
     """function that displays the current date and time."""
